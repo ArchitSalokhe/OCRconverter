@@ -1,0 +1,137 @@
+.body {
+    font-family: sans-serif;
+    background:rgb(253, 41, 30);
+  }
+  .App {
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .content{
+    display: grid;
+    gap: 1rem;
+  }
+  .progre {
+    display: flex;
+    flex-direction: column;
+  }
+  .probar{
+    color: rgb(242, 188, 188);
+    animation-fill-mode: forwards;
+  }
+  .upload-section{
+    padding: 2rem 0;
+    background-color: #ede6e6;
+    border-radius: var(--border-radius-default);
+    min-height: 350px;
+    max-height: fit-content;
+    border: 3px dashed;
+    border-color: rgb(122, 120, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Iamgepro{
+  justify-self: center;
+}
+  .convert-btn{
+    background-color: #3772da;
+  }
+  .App h1 {
+    font-size: 3rem;
+    margin: 4rem 0 0 0;
+  }
+  
+  .App p {
+    color: #1a1a11;
+    font-size: 1.5rem;
+  }
+  .input-field{
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .input-wrapper, label {
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    /* background: coral; */
+    color: #080808;
+    margin: 3%;
+  }
+  
+  .input-wrapper input[type="file"] {
+    position: absolute;
+    left: 26px;
+    top: 6px;
+    z-index: -1;
+    font-size: 15px;
+    color: #1a1a11;
+    margin: 3%;
+  }
+  
+  .result {
+    max-height: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .result .box-image {
+    background:linear-gradient(318deg, #e99340, #fefcd1db);
+    height: 80%;
+    padding: 1rem;
+    margin-left: 20px;
+  }
+  
+  .result .box-p {
+    background: #ddd;
+    height: 80%;
+    padding: 1rem;
+    margin-right: 20px;
+  }
+  
+  .result img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .result p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .convert-btn{
+    /* width: 350px; */
+    height: fit-content;
+    margin: 4%;
+    padding: 2%;
+    font-size: 20px;
+    }
+  .download-btn{
+    background-color: #3772da;
+    width: 300px;
+    height: fit-content;
+    align-self: center;
+    padding: 2%;
+    margin: 0 0 0 70%;
+    font-size: 20px;
+  }
+  
+  @media (min-width: 650px) {
+    .result {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+  
