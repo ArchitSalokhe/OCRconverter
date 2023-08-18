@@ -128,7 +128,7 @@
     font-size: 20px;
   }
   
-  @media (min-width: 650px) {
+  @media (min-width: 600px) {
     .result {
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
